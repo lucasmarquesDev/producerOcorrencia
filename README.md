@@ -21,7 +21,6 @@ A estrutura do projeto segue a Clean Architecture:
 ## Pré-requisitos
 
 - [.NET SDK 7](https://dotnet.microsoft.com/download)
-- [Oracle Database](https://www.oracle.com/database/)
   
 ## Configuração
 
