@@ -24,7 +24,7 @@ A estrutura do projeto segue a Clean Architecture:
   
 ## Configuração
 
-1. Clone o repositório: `git clone https://github.com/lucasmarquesDev/producerOcorrencia/edit/main/README.md`
+1. Clone o repositório: `git clone https://github.com/lucasmarquesDev/producerOcorrencia`
 3. Navegue até o diretório `Template.API` e execute `dotnet run` para iniciar a aplicação.
 
 ## Utilização da API
