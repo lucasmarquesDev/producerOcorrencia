@@ -1,4 +1,4 @@
-﻿# API .NET 7 com Clean Architecture, Entity Framework Core (Code First), MediatR - Exemplo
+﻿# API .NET 7 com Clean Architecture e MediatR 
 
 Esta API .NET 7 é um exemplo de aplicação que segue os princípios da Clean Architecture, MediatR para implementar operações em uma fila do Azure Service Bus SOLID.
 
