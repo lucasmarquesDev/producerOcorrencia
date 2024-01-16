@@ -1,6 +1,7 @@
 ﻿using FluentValidation;
 using Template.Domain.Entities;
-  
+using Xunit.Sdk;
+
 namespace Template.UnitTests.Validations
 {
     public class OcorrenciaValidator : AbstractValidator<Ocorrencia>
@@ -8,15 +9,26 @@ namespace Template.UnitTests.Validations
         public OcorrenciaValidator()
         {
             RuleFor(n => n.EnderecoCompleto)
-                .NotEmpty().WithMessage("Endereço não pode ser vazio !")
-                .MaximumLength(20).WithMessage("O endereço deve ter até 20 caracteres");
+                .NotEmpty().WithMessage(ErrorMessages.EnderecoObrigatorio)
+                .MinimumLength(3).WithMessage(ErrorMessages.EnderecoTamanhoMinimo)
+                .MaximumLength(30).WithMessage(ErrorMessages.EnderecoTamanhoMaximo);
 
             RuleFor(n => n.QuantidadeVolumes)
-                .NotNull().WithMessage("Quantidade de volumes não pode ser vazio !")
-                .GreaterThan(0).WithMessage("Quantidade de volumes deve ser maior que 0 !");
+                .NotNull().WithMessage(ErrorMessages.QuantidadeVolumesObrigatorio)
+                .GreaterThan(0).WithMessage(ErrorMessages.QuantidadeVolumesMinimo)
+                .LessThanOrEqualTo(10).WithMessage(ErrorMessages.QuantidadeVolumesMaximo);
 
             RuleFor(n => n.DtCriacao)
-                .NotNull().WithMessage("Data não pode ser vazio !");
+                .NotNull().WithMessage(ErrorMessages.DataCriacaoObrigatoria)
+                .GreaterThanOrEqualTo(DateTime.Today).WithMessage(ErrorMessages.DataCriacaoMenorDataAtual);
+
+            RuleFor(n => n.DtAtualizacao)
+                .GreaterThanOrEqualTo(DateTime.Today).WithMessage(ErrorMessages.DataAtualizacaoMenorDataAtual)
+                .GreaterThanOrEqualTo(x => x.DtCriacao).WithMessage(ErrorMessages.DataAtualizacaoMenorDataCriacao);
+
+            RuleFor(n => n.DtExclusao)
+                .GreaterThanOrEqualTo(DateTime.Today).WithMessage(ErrorMessages.DataExclusaoMenorDataAtual)
+                .GreaterThanOrEqualTo(x => x.DtCriacao).WithMessage(ErrorMessages.DataExclusaoMenorDataCriacao);
         }
     }
 }

@@ -34,3 +34,15 @@ C:\Users\marqu\source\repos\producerOcorrencia\Template.Domain\obj\Debug\net7.0\
 C:\Users\marqu\source\repos\producerOcorrencia\Template.Domain\obj\Debug\net7.0\refint\Template.Domain.dll
 C:\Users\marqu\source\repos\producerOcorrencia\Template.Domain\obj\Debug\net7.0\Template.Domain.pdb
 C:\Users\marqu\source\repos\producerOcorrencia\Template.Domain\obj\Debug\net7.0\ref\Template.Domain.dll
+C:\Users\Public\Git\producerOcorrencia\Template.Domain\bin\Debug\net7.0\Template.Domain.deps.json
+C:\Users\Public\Git\producerOcorrencia\Template.Domain\bin\Debug\net7.0\Template.Domain.dll
+C:\Users\Public\Git\producerOcorrencia\Template.Domain\bin\Debug\net7.0\Template.Domain.pdb
+C:\Users\Public\Git\producerOcorrencia\Template.Domain\obj\Debug\net7.0\Template.Domain.csproj.AssemblyReference.cache
+C:\Users\Public\Git\producerOcorrencia\Template.Domain\obj\Debug\net7.0\Template.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Public\Git\producerOcorrencia\Template.Domain\obj\Debug\net7.0\Template.Domain.AssemblyInfoInputs.cache
+C:\Users\Public\Git\producerOcorrencia\Template.Domain\obj\Debug\net7.0\Template.Domain.AssemblyInfo.cs
+C:\Users\Public\Git\producerOcorrencia\Template.Domain\obj\Debug\net7.0\Template.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Public\Git\producerOcorrencia\Template.Domain\obj\Debug\net7.0\Template.Domain.dll
+C:\Users\Public\Git\producerOcorrencia\Template.Domain\obj\Debug\net7.0\refint\Template.Domain.dll
+C:\Users\Public\Git\producerOcorrencia\Template.Domain\obj\Debug\net7.0\Template.Domain.pdb
+C:\Users\Public\Git\producerOcorrencia\Template.Domain\obj\Debug\net7.0\ref\Template.Domain.dll

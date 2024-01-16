@@ -9001,19 +9001,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marqu\\.nuget\\packages\\": {}
+    "C:\\Users\\smota\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.API\\Template.API.csproj",
+      "projectUniqueName": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.API\\Template.API.csproj",
       "projectName": "Template.API",
-      "projectPath": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.API\\Template.API.csproj",
-      "packagesPath": "C:\\Users\\marqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.API\\obj\\",
+      "projectPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.API\\Template.API.csproj",
+      "packagesPath": "C:\\Users\\smota\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\smota\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9027,14 +9027,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Application\\Template.Application.csproj": {
-              "projectPath": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Application\\Template.Application.csproj"
+            "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Application\\Template.Application.csproj": {
+              "projectPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Application\\Template.Application.csproj"
             },
-            "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj": {
-              "projectPath": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj"
+            "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj": {
+              "projectPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj"
             },
-            "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Persistence\\Template.Persistence.csproj": {
-              "projectPath": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Persistence\\Template.Persistence.csproj"
+            "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Persistence\\Template.Persistence.csproj": {
+              "projectPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Persistence\\Template.Persistence.csproj"
             }
           }
         }

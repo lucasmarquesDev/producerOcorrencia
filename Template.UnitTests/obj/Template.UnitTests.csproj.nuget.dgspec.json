@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.UnitTests\\Template.UnitTests.csproj": {}
+    "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.UnitTests\\Template.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj": {
+    "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj",
         "projectName": "Template.Domain",
-        "projectPath": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj",
-        "packagesPath": "C:\\Users\\marqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj",
+        "packagesPath": "C:\\Users\\smota\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smota\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,17 +87,17 @@
         }
       }
     },
-    "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.UnitTests\\Template.UnitTests.csproj": {
+    "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.UnitTests\\Template.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.UnitTests\\Template.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.UnitTests\\Template.UnitTests.csproj",
         "projectName": "Template.UnitTests",
-        "projectPath": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.UnitTests\\Template.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\marqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.UnitTests\\obj\\",
+        "projectPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.UnitTests\\Template.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\smota\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\smota\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,8 +111,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj": {
-                "projectPath": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj"
+              "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj": {
+                "projectPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj"
               }
             }
           }

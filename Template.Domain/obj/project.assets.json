@@ -7042,19 +7042,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marqu\\.nuget\\packages\\": {}
+    "C:\\Users\\smota\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj",
       "projectName": "Template.Domain",
-      "projectPath": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj",
-      "packagesPath": "C:\\Users\\marqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marqu\\source\\repos\\producerOcorrencia\\Template.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj",
+      "packagesPath": "C:\\Users\\smota\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\smota\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
