@@ -2300,6 +2300,20 @@
         "runtime": {
           "bin/placeholder/Template.Domain.dll": {}
         }
+      },
+      "Template.Validate/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FluentValidation.AspNetCore": "11.3.0",
+          "Template.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Template.Validate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Template.Validate.dll": {}
+        }
       }
     }
   },
@@ -7226,6 +7240,11 @@
       "type": "project",
       "path": "../Template.Domain/Template.Domain.csproj",
       "msbuildProject": "../Template.Domain/Template.Domain.csproj"
+    },
+    "Template.Validate/1.0.0": {
+      "type": "project",
+      "path": "../Template.Validate/Template.Validate.csproj",
+      "msbuildProject": "../Template.Validate/Template.Validate.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7238,7 +7257,8 @@
       "MediatR >= 12.1.1",
       "Microsoft.Azure.ServiceBus >= 5.2.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0",
-      "Template.Domain >= 1.0.0"
+      "Template.Domain >= 1.0.0",
+      "Template.Validate >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7270,6 +7290,9 @@
           "projectReferences": {
             "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj": {
               "projectPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Domain\\Template.Domain.csproj"
+            },
+            "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Validate\\Template.Validate.csproj": {
+              "projectPath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.Validate\\Template.Validate.csproj"
             }
           }
         }

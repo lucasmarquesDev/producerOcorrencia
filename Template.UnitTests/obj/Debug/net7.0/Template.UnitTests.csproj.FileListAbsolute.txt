@@ -450,3 +450,7 @@ C:\Users\Public\Git\producerOcorrencia\Template.UnitTests\obj\Debug\net7.0\refin
 C:\Users\Public\Git\producerOcorrencia\Template.UnitTests\obj\Debug\net7.0\Template.UnitTests.pdb
 C:\Users\Public\Git\producerOcorrencia\Template.UnitTests\obj\Debug\net7.0\Template.UnitTests.genruntimeconfig.cache
 C:\Users\Public\Git\producerOcorrencia\Template.UnitTests\obj\Debug\net7.0\ref\Template.UnitTests.dll
+C:\Users\Public\Git\producerOcorrencia\Template.UnitTests\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\Public\Git\producerOcorrencia\Template.UnitTests\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Public\Git\producerOcorrencia\Template.UnitTests\bin\Debug\net7.0\Template.Validate.dll
+C:\Users\Public\Git\producerOcorrencia\Template.UnitTests\bin\Debug\net7.0\Template.Validate.pdb

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Template.Validate.Validations;
 
 namespace Template.Application.UseCases.CreateOcorrencia
 {
@@ -11,9 +12,15 @@ namespace Template.Application.UseCases.CreateOcorrencia
     {
         public CreateOcorrenciaValidador()
         {
-            RuleFor(x => x.EnderecoCompleto).NotEmpty().WithMessage("O Endereço não pode ser vazio !").MaximumLength(20).WithMessage("O endereço deve ter até 20 caracteres");
-            RuleFor(x => x.QuantidadeVolumes).NotNull().WithMessage("A Quantidade de volumes não pode ser vazio !").GreaterThan(0).WithMessage("O volume deve ser maior que 0");
-            RuleFor(n => n.DataSolicitacao).NotNull().WithMessage("Data não pode ser vazio !");
+            RuleFor(n => n.EnderecoCompleto)
+               .NotEmpty().WithMessage(ErrorMessages.EnderecoObrigatorio)
+               .MinimumLength(3).WithMessage(ErrorMessages.EnderecoTamanhoMinimo)
+               .MaximumLength(30).WithMessage(ErrorMessages.EnderecoTamanhoMaximo);
+
+            RuleFor(n => n.QuantidadeVolumes)
+                .NotNull().WithMessage(ErrorMessages.QuantidadeVolumesObrigatorio)
+                .GreaterThan(0).WithMessage(ErrorMessages.QuantidadeVolumesMinimo)
+                .LessThanOrEqualTo(10).WithMessage(ErrorMessages.QuantidadeVolumesMaximo);
         }
     }
 }

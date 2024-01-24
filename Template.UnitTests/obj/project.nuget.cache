@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "C7gxcNI2WrVN6FTtiEWmgVpYAi/mS6tiLMs/FhEixAEcpFRv63lTrioi2HYmFGI019vdIwVi5GVh9/M6I2MhDQ==",
+  "dgSpecHash": "Ux/yEqj0p3zYV/+E8JkSk+vBAxSBNHJEckCXp3klgB++4weUaoRsX8ePV9u20mTDKyBzlevj4GEz1IGX9/F87g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Public\\Git\\producerOcorrencia\\Template.UnitTests\\Template.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\smota\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\smota\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\smota\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\smota\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\smota\\.nuget\\packages\\keycloak.authservices.authentication\\1.6.0\\keycloak.authservices.authentication.1.6.0.nupkg.sha512",
     "C:\\Users\\smota\\.nuget\\packages\\keycloak.authservices.authorization\\1.6.0\\keycloak.authservices.authorization.1.6.0.nupkg.sha512",
     "C:\\Users\\smota\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.1\\microsoft.aspnetcore.authentication.jwtbearer.6.0.1.nupkg.sha512",

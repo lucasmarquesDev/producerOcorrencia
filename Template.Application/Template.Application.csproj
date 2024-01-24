@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Template.Domain\Template.Domain.csproj" />
+    <ProjectReference Include="..\Template.Validate\Template.Validate.csproj" />
   </ItemGroup>
 
 </Project>

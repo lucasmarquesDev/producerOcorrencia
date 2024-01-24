@@ -72,3 +72,5 @@ C:\Users\Public\Git\producerOcorrencia\Template.Persistence\obj\Debug\net7.0\ref
 C:\Users\Public\Git\producerOcorrencia\Template.Persistence\obj\Debug\net7.0\Template.Persistence.pdb
 C:\Users\Public\Git\producerOcorrencia\Template.Persistence\obj\Debug\net7.0\Template.Persistence.genruntimeconfig.cache
 C:\Users\Public\Git\producerOcorrencia\Template.Persistence\obj\Debug\net7.0\ref\Template.Persistence.dll
+C:\Users\Public\Git\producerOcorrencia\Template.Persistence\bin\Debug\net7.0\Template.Validate.dll
+C:\Users\Public\Git\producerOcorrencia\Template.Persistence\bin\Debug\net7.0\Template.Validate.pdb

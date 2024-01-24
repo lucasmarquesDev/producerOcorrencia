@@ -2907,7 +2907,8 @@
           "MediatR": "12.1.1",
           "Microsoft.Azure.ServiceBus": "5.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
-          "Template.Domain": "1.0.0"
+          "Template.Domain": "1.0.0",
+          "Template.Validate": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Template.Application.dll": {}
@@ -2950,6 +2951,20 @@
         },
         "runtime": {
           "bin/placeholder/Template.Persistence.dll": {}
+        }
+      },
+      "Template.Validate/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FluentValidation.AspNetCore": "11.3.0",
+          "Template.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Template.Validate.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Template.Validate.dll": {}
         }
       }
     }
@@ -8980,6 +8995,11 @@
       "type": "project",
       "path": "../Template.Persistence/Template.Persistence.csproj",
       "msbuildProject": "../Template.Persistence/Template.Persistence.csproj"
+    },
+    "Template.Validate/1.0.0": {
+      "type": "project",
+      "path": "../Template.Validate/Template.Validate.csproj",
+      "msbuildProject": "../Template.Validate/Template.Validate.csproj"
     }
   },
   "projectFileDependencyGroups": {

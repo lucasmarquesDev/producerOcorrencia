@@ -1,6 +1,6 @@
 using FluentValidation.TestHelper;
 using Template.Domain.Entities;
-using Template.UnitTests.Validations;
+using Template.Validate.Validations;
 
 namespace Template.UnitTests
 {

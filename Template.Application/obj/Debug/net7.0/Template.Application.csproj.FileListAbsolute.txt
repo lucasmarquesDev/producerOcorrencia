@@ -58,3 +58,5 @@ C:\Users\Public\Git\producerOcorrencia\Template.Application\obj\Debug\net7.0\Tem
 C:\Users\Public\Git\producerOcorrencia\Template.Application\obj\Debug\net7.0\refint\Template.Application.dll
 C:\Users\Public\Git\producerOcorrencia\Template.Application\obj\Debug\net7.0\Template.Application.pdb
 C:\Users\Public\Git\producerOcorrencia\Template.Application\obj\Debug\net7.0\ref\Template.Application.dll
+C:\Users\Public\Git\producerOcorrencia\Template.Application\bin\Debug\net7.0\Template.Validate.dll
+C:\Users\Public\Git\producerOcorrencia\Template.Application\bin\Debug\net7.0\Template.Validate.pdb

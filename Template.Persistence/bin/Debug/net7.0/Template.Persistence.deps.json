@@ -1547,7 +1547,8 @@
           "MediatR": "12.1.1",
           "Microsoft.Azure.ServiceBus": "5.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
-          "Template.Domain": "1.0.0"
+          "Template.Domain": "1.0.0",
+          "Template.Validate": "1.0.0"
         },
         "runtime": {
           "Template.Application.dll": {}
@@ -1563,6 +1564,15 @@
         },
         "runtime": {
           "Template.Domain.dll": {}
+        }
+      },
+      "Template.Validate/1.0.0": {
+        "dependencies": {
+          "FluentValidation.AspNetCore": "11.3.0",
+          "Template.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Template.Validate.dll": {}
         }
       }
     }
@@ -2643,6 +2653,11 @@
       "sha512": ""
     },
     "Template.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Template.Validate/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

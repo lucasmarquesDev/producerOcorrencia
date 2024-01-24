@@ -365,3 +365,5 @@ C:\Users\Public\Git\producerOcorrencia\Template.API\obj\Debug\net7.0\refint\Temp
 C:\Users\Public\Git\producerOcorrencia\Template.API\obj\Debug\net7.0\Template.API.pdb
 C:\Users\Public\Git\producerOcorrencia\Template.API\obj\Debug\net7.0\Template.API.genruntimeconfig.cache
 C:\Users\Public\Git\producerOcorrencia\Template.API\obj\Debug\net7.0\ref\Template.API.dll
+C:\Users\Public\Git\producerOcorrencia\Template.API\bin\Debug\net7.0\Template.Validate.dll
+C:\Users\Public\Git\producerOcorrencia\Template.API\bin\Debug\net7.0\Template.Validate.pdb

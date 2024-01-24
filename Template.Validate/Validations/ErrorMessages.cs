@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Template.UnitTests.Validations
+namespace Template.Validate.Validations
 {
     public static class ErrorMessages
     {
@@ -20,7 +20,5 @@ namespace Template.UnitTests.Validations
         public static string DataAtualizacaoMenorDataCriacao => "A data de atualização não pode ser menor que a data de criação!";
         public static string DataExclusaoMenorDataAtual => "A data de exclusão não pode ser menor que a data atual!";
         public static string DataExclusaoMenorDataCriacao => "A data de exclusão não pode ser menor que a data de criação!";
-        public static string DataSolicitacaoObrigatoria => "A data de solicitação não pode ser vazio!";
-        public static string DataSolicitacaoMaiorDataAtual => "A data de solicitação não pode ser maior que a data atual!";
     }
 }
