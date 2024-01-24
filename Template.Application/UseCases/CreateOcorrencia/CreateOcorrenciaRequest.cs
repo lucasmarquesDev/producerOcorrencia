@@ -10,7 +10,6 @@ namespace Template.Application.UseCases.CreateOcorrencia
 {
     public sealed class CreateOcorrenciaRequest : IRequest<Response<CreateOcorreniaResponse>>
     {
-        public DateTime DataSolicitacao{ get; set; }
         public string EnderecoCompleto { get; set; }
         public int QuantidadeVolumes { get; set; }
     }

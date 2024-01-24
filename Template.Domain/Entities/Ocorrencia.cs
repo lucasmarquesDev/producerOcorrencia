@@ -6,5 +6,10 @@ namespace Template.Domain.Entities
     {
         public string? EnderecoCompleto { get; set; }
         public int? QuantidadeVolumes { get; set; }
+
+        public Ocorrencia()
+        {
+            DtCriacao = DateTime.Now;
+        }
     }
 }
