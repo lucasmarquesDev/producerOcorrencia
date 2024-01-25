@@ -4,6 +4,7 @@ namespace Template.Application.UseCases.CreateOcorrencia
 {
     public sealed class CreateOcorreniaResponse
     {
-        public Guid Id { get; set; }
+        public string EnderecoCompleto { get; set; }
+        public int QuantidadeVolumes { get; set; }
     }
 }
